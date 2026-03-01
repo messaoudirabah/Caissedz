@@ -1,0 +1,361 @@
+/* CAISSEDZ 2.0 - CAFÉ NEON DARK THEME (2026 Edition) */
+
+/* Main Window - Fixed Background Banner */
+/* Main Window Background managed in main.py */
+
+/* Dark overlay for all widgets to ensure visibility */
+QMainWindow::before {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+QMainWindow,
+QDialog,
+QWidget {
+    background-color: rgba(5, 7, 5, 0.85);
+    color: #e0e0e0;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* Glassmorphism Containers - Enhanced Visibility Over Banner */
+QFrame#glassPanel {
+    background-color: rgba(10, 15, 11, 220);
+    border: 2px solid rgba(0, 255, 170, 70);
+    border-radius: 16px;
+}
+
+/* All QFrame widgets get enhanced glassmorphism */
+QFrame {
+    background-color: rgba(8, 12, 9, 200);
+    border: 1.5px solid rgba(0, 255, 170, 45);
+    border-radius: 12px;
+}
+
+/* Transparent panels for dialogs and containers */
+QDialog {
+    background-color: rgba(5, 7, 5, 245);
+    border: 2px solid rgba(0, 255, 170, 60);
+    border-radius: 18px;
+}
+
+/* Login Card - Extra Depth */
+QFrame#loginCard {
+    background-color: rgba(10, 14, 10, 250);
+    border: 1px solid rgba(0, 255, 170, 60);
+    border-radius: 30px;
+}
+
+/* ScrollBars */
+QScrollBar:vertical {
+    border: none;
+    background: transparent;
+    width: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(0, 255, 170, 80);
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #00FFAA;
+}
+
+/* Buttons - Premium Modern */
+QPushButton {
+    background-color: #0c0e0c;
+    border: 1px solid #1a1e1a;
+    border-radius: 10px;
+    padding: 10px 18px;
+    color: #b0b0b0;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #121612;
+    border: 1px solid #00FFAA;
+    color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #0a0c0a;
+    border: 1px solid #FFD700;
+}
+
+QPushButton#primaryButton {
+    background-color: #008855;
+    border: 1px solid #00AA77;
+    color: white;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #00AA77;
+    border: 1px solid #FFD700;
+}
+
+/* --- PREMIUM LOGIN INPUTS --- */
+QLineEdit#loginInput {
+    background-color: rgba(0, 0, 0, 50);
+    border: none;
+    border-bottom: 2px solid #1e241e;
+    border-radius: 0;
+    padding: 12px 5px;
+    color: #00FFAA;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+QLineEdit#loginInput:focus {
+    border-bottom: 2px solid #00FFAA;
+    background-color: rgba(0, 255, 170, 5);
+}
+
+QPushButton#loginBtn {
+    background-color: #00FFAA;
+    color: #000000;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+QPushButton#loginBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Generic Search Bars - Enhanced for Banner Visibility */
+QLineEdit#searchBar {
+    background-color: rgba(10, 14, 11, 210);
+    border: 1.5px solid rgba(0, 255, 170, 55);
+    border-radius: 20px;
+    padding: 8px 18px;
+    color: #ffffff;
+}
+
+QLineEdit#searchBar:focus {
+    border: 2px solid #00FFAA;
+    background-color: rgba(0, 255, 170, 20);
+}
+
+/* All Input Fields - Enhanced Visibility */
+QLineEdit,
+QSpinBox,
+QDoubleSpinBox,
+QComboBox {
+    background-color: rgba(12, 16, 13, 220);
+    border: 1.5px solid rgba(0, 255, 170, 40);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #e0e0e0;
+}
+
+QLineEdit:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus,
+QComboBox:focus {
+    border: 2px solid #00FFAA;
+    background-color: rgba(0, 255, 170, 18);
+}
+
+/* Ticket Table - Enhanced Visibility Over Banner */
+QTableWidget#ticketTable {
+    background-color: rgba(5, 8, 6, 180);
+    border: 1.5px solid rgba(0, 255, 170, 45);
+    border-radius: 12px;
+    alternate-background-color: rgba(0, 255, 170, 12);
+}
+
+QTableWidget {
+    background-color: rgba(8, 12, 9, 200);
+    border: 1.5px solid rgba(0, 255, 170, 50);
+    border-radius: 12px;
+    border-radius: 12px;
+    outline: none;
+    /* Removing focus dotted line */
+}
+
+QTableWidget::item {
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 255, 170, 20);
+    background-color: transparent;
+}
+
+QTableWidget::item:focus {
+    outline: none;
+    /* Also helpful to remove individual item focus rect */
+    border: none;
+}
+
+QTableWidget::item:selected {
+    /* Light Blue Selection */
+    background-color: #3399ff;
+    color: #ffffff;
+    outline: none;
+}
+
+QHeaderView::section {
+    background-color: rgba(0, 0, 0, 100);
+    color: #FFD700;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 255, 170, 40);
+    font-weight: 800;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Product Cards */
+QPushButton#productBtn {
+    background-color: #0c0e0c;
+    border: 1px solid #1a1e1a;
+    border-radius: 14px;
+}
+
+/* Labels */
+QLabel#titleLabel {
+    color: #FFD700;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* Sidebar */
+QPushButton#categoryBtn {
+    text-align: left;
+    padding: 16px 20px;
+    border: none;
+    border-left: 4px solid transparent;
+    border-radius: 0;
+    background-color: transparent;
+    color: #888;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+}
+
+QPushButton#categoryBtn:hover {
+    background-color: rgba(0, 255, 170, 10);
+}
+
+QPushButton#categoryBtn:checked {
+    background-color: rgba(0, 255, 170, 30);
+    border-left: 4px solid #00FFAA;
+    color: #00FFAA;
+    font-weight: 800;
+}
+
+/* --- DASHBOARD / REPORTS (2.0 PREMIUM) - Enhanced for Banner --- */
+QFrame#statCard {
+    background-color: rgba(10, 15, 11, 230);
+    border: 2px solid rgba(0, 255, 170, 55);
+    border-radius: 20px;
+}
+
+QLabel#statTitle {
+    color: #00FFAA;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+QLabel#statValue {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+QLabel#statIcon {
+    font-size: 24px;
+    color: #00FFAA;
+    background-color: rgba(0, 255, 170, 20);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* Tabs Redesign */
+QTabWidget::pane {
+    border: 1px solid rgba(0, 255, 170, 30);
+    background-color: rgba(12, 16, 12, 200);
+    border-radius: 15px;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: transparent;
+    color: #666;
+    padding: 12px 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-bottom: 3px solid transparent;
+}
+
+QTabBar::tab:selected {
+    color: #00FFAA;
+    border-bottom: 3px solid #00FFAA;
+}
+
+/* General Focus Outline Removal */
+QTableWidget:focus,
+QTableView:focus,
+QListWidget:focus,
+QListView:focus,
+QTreeWidget:focus,
+QTreeView:focus {
+    outline: none;
+    border: 1.5px solid rgba(0, 255, 170, 70);
+}
+
+/* Global focus outline removal for strict adherence */
+* {
+    outline: none;
+}
+
+/* --- DANGER ZONE (PREMIUM RED) --- */
+QGroupBox#dangerZone {
+    background-color: rgba(30, 8, 8, 180);
+    border: 1.5px solid rgba(255, 68, 68, 60);
+    border-radius: 16px;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+QGroupBox#dangerZone::title {
+    color: #ff5555;
+    font-weight: 900;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 15px;
+}
+
+QPushButton#dangerButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(139, 0, 0, 200),
+            stop:1 rgba(74, 0, 0, 220));
+    border: 1.5px solid rgba(255, 68, 68, 50);
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 14px;
+    letter-spacing: 1px;
+}
+
+QPushButton#dangerButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(165, 0, 0, 220),
+            stop:1 rgba(107, 0, 0, 240));
+    border: 1.5px solid #ff4444;
+    color: #ffffff;
+}
+
+QPushButton#dangerButton:pressed {
+    background: rgba(74, 0, 0, 250);
+    border: 1.5px solid #cc0000;
+}
