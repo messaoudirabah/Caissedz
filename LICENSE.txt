@@ -1,0 +1,52 @@
+CAISSEDZ
+
+Éditeur : NexGen MB
+(Groupe de développement logiciel)
+
+1. CONCESSION DE LICENCE
+
+NexGen MB accorde à l’utilisateur une licence non exclusive, non transférable et non cessible lui permettant d’installer et d’utiliser le logiciel CaisseDZ sur un ou plusieurs ordinateurs personnels ou professionnels, conformément aux présentes conditions.
+
+2. RESTRICTIONS D’UTILISATION
+
+Il est strictement interdit à l’utilisateur de :
+
+Copier, modifier, vendre, louer, sous-licencier ou distribuer le logiciel sans autorisation écrite préalable de NexGen MB.
+
+Décompiler, désassembler, rétro-concevoir ou tenter d’accéder au code source du logiciel.
+
+Utiliser le logiciel à des fins illégales, frauduleuses ou contraires aux lois en vigueur.
+
+3. PROPRIÉTÉ INTELLECTUELLE
+
+Le logiciel CaisseDZ, incluant sans s’y limiter le code source, l’architecture, les interfaces, le design, les logos et la documentation, demeure la propriété exclusive de NexGen MB.
+
+Aucun droit de propriété intellectuelle n’est transféré à l’utilisateur par le présent contrat.
+
+4. EXCLUSION DE GARANTIE ET LIMITATION DE RESPONSABILITÉ
+
+Le logiciel est fourni « TEL QUEL », sans aucune garantie explicite ou implicite, y compris mais sans s’y limiter les garanties de performance, de fiabilité ou d’adéquation à un usage particulier.
+
+NexGen MB ne pourra en aucun cas être tenu responsable de :
+
+pertes de données,
+
+pertes financières,
+
+dommages directs ou indirects résultant de l’utilisation ou de l’impossibilité d’utiliser le logiciel.
+
+L’utilisation du logiciel se fait entièrement aux risques de l’utilisateur.
+
+5. PROTECTION ET STOCKAGE DES DONNÉES
+
+Toutes les données de l’utilisateur sont stockées localement sur sa machine, dans le fichier de base de données (db.sqlite).
+
+Aucune donnée n’est transmise, collectée ou stockée sur des serveurs externes par NexGen MB.
+
+L’utilisateur est seul responsable de la sauvegarde et de la sécurité de ses données.
+
+6. ACCEPTATION DU CONTRAT
+
+En installant, copiant ou utilisant le logiciel CaisseDZ, l’utilisateur reconnaît avoir pris connaissance du présent contrat et accepte sans réserve l’ensemble de ses termes.
+
+© NexGen MB – Tous droits réservés

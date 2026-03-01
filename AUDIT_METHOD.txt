@@ -1,0 +1,10 @@
+    
+    def show_audit_logs(self):
+        """Show audit logs screen (admin only)."""
+        self.audit_screen = AuditLogsScreen(self.db_manager, self.user_info)
+        back_btn = QPushButton("RETOUR CAISSE")
+        back_btn.clicked.connect(self.show_caisse)
+        self.audit_screen.layout().insertWidget(0, back_btn)
+        
+        self.stacked_widget.addWidget(self.audit_screen)
+        self.stacked_widget.setCurrentWidget(self.audit_screen)

@@ -1,0 +1,32 @@
+CONTRAT DE LICENCE - CAISSEDZ
+__________________________________________________________________________
+
+ENTRE : NexGen MB Team (Fournisseur) ET _________________________ (Client)
+
+ARTICLE 1 : OBJET
+Licence d'utilisation du logiciel de point de vente "CaisseDZ".
+
+ARTICLE 2 : FONCTIONNALITÉS
+- **Encaissement Rapide** : Interface tactile ou clavier optimisée pour la vitesse.
+- **Gestion Multi-Caisses** : Support pour plusieurs terminaux.
+- **Audit de Sécurité** : Journalisation avancée des annulations et des accès (Audit Logs).
+- **Gestion des Vendeurs** : Suivi des performances par employé.
+- **Rapports Financiers** : Z-de-Caisse, Journal des Ventes, TVA.
+
+ARTICLE 3 : TARIFICATION
+Prix de la licence : 45,000 DA (Dinars Algériens) par poste.
+Prix pour le 2ème poste et suivants : 25,000 DA.
+
+Offre "Démarrage" (Logiciel + Installation + 3 mois support) : 45,000 DA.
+
+ARTICLE 4 : MAINTENANCE
+Le logiciel est garanti contre tout vice de programmation pendant 6 mois.
+Les mises à jour fiscales ou réglementaires sont incluses la première année.
+
+ARTICLE 5 : RESPONSABILITÉ
+NexGen MB Team garantit l'intégrité des calculs financiers du logiciel mais ne saurait être tenu responsable des erreurs de saisie des utilisateurs.
+
+Fait à ___________________, le _______________
+
+LE FOURNISSEUR                                          LE CLIENT
+NexGen MB Team
